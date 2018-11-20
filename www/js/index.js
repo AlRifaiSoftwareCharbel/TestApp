@@ -33,6 +33,12 @@ var app = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
+        
+        setTimeout(function () {
+        // pdfConvertor();
+             navigator.splashscreen.hide();
+         }, 1000);
+
         console.log('Received Device Ready Event');
         console.log('calling setup push');
         app.setupPush();
