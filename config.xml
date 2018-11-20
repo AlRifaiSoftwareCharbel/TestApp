@@ -40,9 +40,9 @@
     <preference name="ScrollEnabled" value="true" />
 
     
-    <plugin name="phonegap-plugin-push" source="npm" spec="~1.8.0">
+    <!-- <plugin name="phonegap-plugin-push" source="npm" spec="~1.8.0">
         <variable name="SENDER_ID" value="XXXXXXX" />
-    </plugin>
+    </plugin> -->
     <plugin name="cordova-plugin-console" source="npm" spec="~1.0.3" />
 
     <gap:plugin name="cordova-plugin-network-information" source="npm"/>
