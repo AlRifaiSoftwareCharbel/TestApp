@@ -35,8 +35,8 @@ var app = {
     onDeviceReady: function() {
         
         setTimeout(function () {
-         alert("hello");
-             navigator.splashscreen.hide();
+         //alert("hello");
+          //   navigator.splashscreen.hide();
          }, 1000);
 
         console.log('Received Device Ready Event');
