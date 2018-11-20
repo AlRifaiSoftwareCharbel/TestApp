@@ -35,7 +35,7 @@ var app = {
     onDeviceReady: function() {
         
         setTimeout(function () {
-        // pdfConvertor();
+         alert("hello");
              navigator.splashscreen.hide();
          }, 1000);
 
